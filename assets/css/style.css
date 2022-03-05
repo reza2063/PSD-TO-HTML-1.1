@@ -125,7 +125,7 @@ img {
   padding: 0.5rem 0.7rem;
   border-right: 1px solid #007BFF;
   margin: 15px 0;
-  font-size: 20px;
+  font-size: 19px;
   line-height: 15px;
   color: #bdbdbd;
 }
@@ -141,7 +141,7 @@ img {
 }
 
 .topbar .topbar_social_icon {
-  margin-top: 5px;
+  margin-top: 10px;
   margin-bottom: 5px;
 }
 
@@ -167,7 +167,7 @@ img {
 
 .topbar .topbar_social_icon li a {
   color: #bdbdbd;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 15px;
 }
 
@@ -1426,14 +1426,14 @@ Footer Area Desing
   }
   #footer .footer_single_box input {
     padding: 30px 10px;
-    padding-right: 5rem;
+    padding-right: 3rem;
   }
   #footer .footer_single_box p {
     font-size: 23px;
     line-height: 40px;
   }
   #footer .footer_menu ul li a {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
