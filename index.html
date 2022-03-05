@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Project 01</title>
+    <!-- Bootstrap file & Others -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <!-- Main CSS File-->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!---- Top Bar Area ---->
+<section id="topbar" class="topbar">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-12 col-lg-8">
+           <div class="topbar_menu">
+             <ul>
+               <li><i class="fa-solid fa-clock"></i> Mon - Sat: 09.00 - 19.00</li>
+               <li><i class="fa-solid fa-phone"></i> +(789) 675 978</li>
+               <li><i class="fa-solid fa-envelope"></i> support@website.com</li>
+             </ul>
+            </div>
+         </div>
+
+        <div class="col-12 col-lg-4">
+           <div class="topbar_social_icon">
+             <ul>
+               <li>
+                 <a href="#" class="facebook">
+                   <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+               </li>
+               <li>
+                 <a href="#" class="twitter">
+                   <i class="fa-brands fa-twitter"></i>
+                  </a>
+               </li>
+               <li>
+                 <a href="#" class="google">
+                   <i class="fa-brands fa-google"></i>
+                  </a>
+               </li>
+               <li>              
+                 <a href="#" class="pinterest">
+                   <i class="fa-brands fa-pinterest-square"></i>
+                  </a>
+               </li>              
+               <li>
+                <a href="#" class="linkedin">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+              </li>
+             </ul>
+           </div>
+        </div>
+
+    </div>
+  </div>
+</section><!---- END Top Bar Area ---->
+
+<!----Navbar Area Start---->
+<nav class="navbar sticky-top navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt="Logo"></a>
+    <button class="navbar-toggler bg-black" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Home <i class="fa-solid fa-angle-down"></i>
+          </a>
+          <ul class="dropdown-menu" id="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Home One</a></li>
+            <li><a class="dropdown-item" href="#">Home Two</a></li>
+            <li><a class="dropdown-item" href="#">Home Three</a></li>
+            <li><a class="dropdown-item" href="#">Home Four</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Service <i class="fa-solid fa-angle-down"></i>
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Service One</a></li>
+            <li><a class="dropdown-item" href="#">Service Two</a></li>
+            <li><a class="dropdown-item" href="#">Service Three</a></li>
+            <li><a class="dropdown-item" href="#">Service Details</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Pages <i class="fa-solid fa-angle-down"></i>
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Pages One</a></li>
+            <li><a class="dropdown-item" href="#">Pages Two</a></li>
+            <li><a class="dropdown-item" href="#">Pages Three</a></li>
+            <li><a class="dropdown-item" href="#">Pages Details</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Blogs <i class="fa-solid fa-angle-down"></i>
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Blog One</a></li>
+            <li><a class="dropdown-item" href="#">Blog Two</a></li>
+            <li><a class="dropdown-item" href="#">Blog Three</a></li>
+            <li><a class="dropdown-item" href="#">Blog Details</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+      <form class="d-none d-lg-flex">
+        <a class="text-white" type="submit">Get A Quote</a>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+<!---- Hero Area Start ---->
+  <section id="hero" class="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+        <div class="carousel-inner" role="listbox">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active" style="background-image: url(assets/img/bg4.jpg);">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown">We Build Your Best Buisness</h2>
+                <p class="animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum, sanctus est Lorem ipsum dolor sit amet.</p>
+                <a href="#" class="custom_btn">Contact Now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item" style="background-image: url(assets/img/bg5.jpg);">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown">Global Buisness Solution</h2>
+                <p class="animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum, sanctus est Lorem ipsum dolor sit amet.</p>
+                <a href="#" class="custom_btn">Contact Now</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fa-solid fa-angle-left"></i></span>
+        </a>
+
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"><i class="fa-solid fa-angle-right"></i></span>
+        </a>
+
+      </div>
+    </div>
+  </section><!-- END Hero Area -->
+
+  
+<!---- Features Area Start ---->
+<section id="features_area" class="features_area">
+   <div class="container">
+     <div class="features">
+       <div class="row">
+
+         <div class="col-12 col-lg-4">
+           <div class="features_box_content">
+            <i class="fa-solid fa-paintbrush"></i>
+            <h4>Creative Design</h4>
+            <p>Lorem ipsum dolor sit amet, con sectetuer adipiscing elitLorem ipsum</p>
+           </div>
+         </div>
+
+         <div class="col-12 mt-4 mt-lg-0 col-lg-4">
+           <div class="features_box_content">
+            <i class="fa-solid fa-fire-flame-curved"></i>
+            <h4>Flexible Solutions</h4>
+            <p>Lorem ipsum dolor sit amet, con sectetuer adipiscing elitLorem ipsum</p>
+           </div>
+         </div>
+
+         <div class="col-12 mt-4 mt-lg-0 col-lg-4">
+           <div class="features_box_content bb_none">
+            <i class="fa-solid fa-rocket"></i>
+            <h4>Premium Support</h4>
+            <p>Lorem ipsum dolor sit amet, con sectetuer adipiscing elitLorem ipsum</p>
+           </div>
+         </div>
+
+       </div><!-- row -->
+     </div>
+   </div>
+</section><!---- END Features Area ---->
+
+
+<!---- About Area Start ---->
+<section id="about" class="about">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-12 col-lg-6">
+          <div class="about_img">
+            <img src="assets/img/about.png" alt="About Image">
+          </div>
+        </div>
+
+        <div class="col-12 mt-5 mt-lg-0 col-lg-6">
+          <div class="about_content">
+            <span>About Us</span>
+            <h2>We Are The Leader Of Consulting Services</h2>
+            <p class="p_01">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit",</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="#" class="custom_btn">Hire Us</a>
+          </div>
+        </div>
+
+      </div><!-- row -->
+    </div>
+</section><!---- END About Area ---->
+
+
+<!---- Service Area Start ---->
+<section id="service" class="service">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-12">
+          <div class="section_heading">
+            <span>Service</span>
+            <h2>What We Offer</h2>
+          </div>         
+        </div>
+
+      </div>
+
+      <div class="row">
+ 
+        <!--Service 01-->
+        <div class="col-md-6 col-lg-4">
+          <div class="service_box">
+            <div class="service_content">
+              <div class="service_icon"><i class="fa-solid fa-business-time"></i></div>
+              <h3>Creative Solutions </h3>
+              <p>Et harum quidem rerum facilis est et expe dita dis tinctio. Nam libero tempore.</p>
+              <a href="#"><i class="fa-solid fa-circle-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!--Service 02-->
+        <div class="col-md-6 col-lg-4">
+          <div class="service_box">
+            <div class="service_content">
+              <div class="service_icon"><i class="fa-solid fa-crop-simple"></i></div>
+              <h3>Business Plan</h3>
+              <p>Et harum quidem rerum facilis est et expe dita dis tinctio. Nam libero tempore.</p>
+              <a href="#"><i class="fa-solid fa-circle-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!--Service 03-->
+        <div class="col-md-6 col-lg-4">
+          <div class="service_box">
+            <div class="service_content">
+              <div class="service_icon"><i class="fa-solid fa-fire-flame-curved"></i></div>
+              <h3>Websites Rank</h3>
+              <p>Et harum quidem rerum facilis est et expe dita dis tinctio. Nam libero tempore.</p>
+              <a href="#"><i class="fa-solid fa-circle-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!--Service 04-->
+        <div class="col-md-6 col-lg-4">
+          <div class="service_box">
+            <div class="service_content">
+              <div class="service_icon"><i class="fa-solid fa-briefcase"></i></div>
+              <h3>SEO Marketing</h3>
+              <p>Et harum quidem rerum facilis est et expe dita dis tinctio. Nam libero tempore.</p>
+              <a href="#"><i class="fa-solid fa-circle-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!--Service 05-->
+        <div class="col-md-6 col-lg-4">
+          <div class="service_box">
+            <div class="service_content">
+              <div class="service_icon"> <i class="fa-solid fa-rocket"></i></div>
+              <h3>Financing Solutions</h3>
+              <p>Et harum quidem rerum facilis est et expe dita dis tinctio. Nam libero tempore.</p>
+              <a href="#"><i class="fa-solid fa-circle-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!--Service 06-->
+        <div class="col-md-6 col-lg-4">
+          <div class="service_box">
+            <div class="service_content">
+              <div class="service_icon"><i class="fa-solid fa-desktop"></i></div>
+              <h3>Could Computing</h3>
+              <p>Et harum quidem rerum facilis est et expe dita dis tinctio. Nam libero tempore.</p>
+              <a href="#"><i class="fa-solid fa-circle-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- row -->
+
+    </div>
+</section><!---- END Service Area ---->
+
+
+<!-------- Counter Area Start  --------->
+<section id="counter_area" class="counter_area">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+          <div class="counter_box">
+            <div class="counter_icon">
+              <i class="fa-solid fa-users"></i>
+            </div>
+            <div class="counter_text">
+              <h2 data-toggle="counter-up">35,000</h2>
+              <span>Happy Customers</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+          <div class="counter_box">
+            <div class="counter_icon">
+              <i class="fa-solid fa-list-check"></i>
+            </div>
+            <div class="counter_text">
+              <h2 data-toggle="counter-up">15,250</h2>
+              <span>Running Design</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+          <div class="counter_box">
+            <div class="counter_icon">
+              <i class="fa-solid fa-mug-hot"></i>
+            </div>
+            <div class="counter_text">
+              <h2 data-toggle="counter-up">9,270</h2>
+              <span>coffee cups</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+          <div class="counter_box">
+            <div class="counter_icon">
+              <i class="fa-solid fa-clipboard-list"></i>
+            </div>
+            <div class="counter_text">
+              <h2 data-toggle="counter-up">52,300</h2>
+              <span>Complete Project</span>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- row -->
+    </div>
+</section><!---- END Counter Area ----->
+
+
+<!---- Our Team Area Start ----->
+<section id="team" class="team">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-12">
+          <div class="section_heading">
+            <span>Our Team</span>
+            <h2>People Behind Success</h2>
+          </div>
+        </div>
+
+      </div>
+
+        <div class="row">
+ 
+          <!--Team Member-01 info-->
+          <div class="col-md-4">
+            <div class="team_box">
+              <div class="team_img">
+                <img src="assets/img/team1.jpg" alt="Team Member 01">
+                <div class="team_text">
+                  <h4>Michael Redux</h4>
+                  <span>creative builder</span>
+                  <div class="team_icon">
+                    <ul>
+                      <li>
+                        <a href="#" class="twitter">
+                          <i class="fa-brands fa-twitter"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="facebook">
+                          <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="instagram">
+                          <i class="fa-brands fa-instagram"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="google">
+                          <i class="fa-brands fa-google"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Team Member-02 info-->
+          <div class="col-md-4">
+            <div class="team_box">
+              <div class="team_img">
+                <img src="assets/img/team2.jpg" alt="Team Member 01">
+                <div class="team_text">
+                  <h4>Michael Redux</h4>
+                  <span>creative builder</span>
+                  <div class="team_icon">
+                    <ul>
+                      <li>
+                        <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                      </li>
+                      <li>
+                        <a href="#" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                      </li>
+                      <li>
+                        <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                      </li>
+                      <li>
+                        <a href="#" class="google"><i class="fa-brands fa-google"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Team Member-03 info-->
+          <div class="col-md-4">
+            <div class="team_box">
+              <div class="team_img">
+                <img src="assets/img/team3.jpg" alt="Team Member 01">
+                <div class="team_text">
+                  <h4>Michael Redux</h4>
+                  <span>creative builder</span>
+                  <div class="team_icon">
+                    <ul>
+                      <li>
+                        <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                      </li>
+                      <li>
+                        <a href="#" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                      </li>
+                      <li>
+                        <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                      </li>
+                      <li>
+                        <a href="#" class="google"><i class="fa-brands fa-google"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Team Member-04 info-->
+          <div class="col-md-4">
+            <div class="team_box">
+              <div class="team_img">
+                <img src="assets/img/team2.jpg" alt="Team Member 01">
+                <div class="team_text">
+                  <h4>Michael Redux</h4>
+                  <span>creative builder</span>
+                  <div class="team_icon">
+                    <ul>
+                      <li>
+                        <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                      </li>
+                      <li>
+                        <a href="#" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                      </li>
+                      <li>
+                        <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                      </li>
+                      <li>
+                        <a href="#" class="google"><i class="fa-brands fa-google"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Team Member-05 info-->
+          <div class="col-md-4">
+            <div class="team_box">
+              <div class="team_img">
+                <img src="assets/img/team3.jpg" alt="Team Member 01">
+                <div class="team_text">
+                  <h4>Michael Redux</h4>
+                  <span>creative builder</span>
+                  <div class="team_icon">
+                    <ul>
+                      <li>
+                        <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                      </li>
+                      <li>
+                        <a href="#" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                      </li>
+                      <li>
+                        <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                      </li>
+                      <li>
+                        <a href="#" class="google"><i class="fa-brands fa-google"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Team Member-06 info-->
+          <div class="col-md-4">
+            <div class="team_box">
+              <div class="team_img">
+                <img src="assets/img/team1.jpg" alt="Team Member 01">
+                <div class="team_text">
+                  <h4>Michael Redux</h4>
+                  <span>creative builder</span>
+                  <div class="team_icon">
+                    <ul>
+                      <li>
+                        <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                      </li>
+                      <li>
+                        <a href="#" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                      </li>
+                      <li>
+                        <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                      </li>
+                      <li>
+                        <a href="#" class="google"><i class="fa-brands fa-google"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div><!--row-->
+
+    </div>
+</section><!---- END Our Team Area ----->
+
+
+<!---- CTA Area Start ----->
+<section id="cta" class="cta">
+   <div class="container">
+     <div class="row">
+
+       <div class="col-lg-6 offset-lg-6 col-sm-12 offset-sm-0">
+         <div class="cta_text">
+           <h2>Quality Makes The <br>
+            Belief For Customers</h2>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+
+            <div class="col-lg-4 d-flex align-items-center justify-content-center" data-aos="zoom-in" data-aos-delay="200">
+              <a href="https://www.youtube.com/embed/7e90gBu4pas?autoplay=1" class="venobox play-btn" data-vbtype="video" data-autoplay="true"></a>
+            </div>
+
+         </div>
+       </div>
+
+     </div><!---row-->
+   </div>
+</section><!---- END cta Area ----->
+
+
+<!---- Pricing Area Start ----->
+<section id="pricing" class="pricing">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-12">
+          <div class="section_heading">
+            <span>OUR PRICING</span>
+            <h2>Most Flexible Pricing</h2>
+          </div>
+        </div>
+
+      </div><!--row-->
+
+      <div class="row">
+
+        <div class="col-12 col-lg-4">
+          <div class="pricing_box active_price01">
+            <div class="pricing_heading">
+              <h1>Basic</h1>
+            </div>
+            <div class="pricing_text">
+              <h2>
+                <span>$</span>
+                100
+              </h2>
+            </div>
+            <div class="pricing_list">
+              <ul>
+                <li>Full Support</li>
+                <li>PSD Included</li>
+                <li>Free Installation</li>
+                <li class="del"><del>Free One Year Domain</del></li>
+                <li class="del"><del>unlimited Hosting service</del></li>
+                <li class="del"><del>website ranking</del></li>
+              </ul>
+            </div>
+            <div class="pricing_btn">
+              <a href="#" class="custom_btn">Purchase</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-4">
+          <div class="pricing_box active_price">
+            <div class="pricing_heading">
+              <h1>Advanced</h1>
+            </div>
+            <div class="pricing_text">
+              <h2>
+                <span>$</span>
+                300
+              </h2>
+            </div>
+            <div class="pricing_list">
+              <ul>
+                <li>Full Support</li>
+                <li>PSD Included</li>
+                <li>Free Installation</li>
+                <li class="del"><del>Free One Year Domain</del></li>
+                <li class="del"><del>unlimited Hosting service</del></li>
+                <li class="del"><del>website ranking</del></li>
+              </ul>
+            </div>
+            <div class="pricing_btn">
+              <a href="#" class="custom_btn">Purchase</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 mt-5 mt-lg-0 col-lg-4">
+          <div class="pricing_box active_price02">
+            <div class="pricing_heading">
+              <h1>Pro</h1>
+            </div>
+            <div class="pricing_text">
+              <h2>
+                <span>$</span>
+                300
+              </h2>
+            </div>
+            <div class="pricing_list">
+              <ul>
+                <li>Full Support</li>
+                <li>PSD Included</li>
+                <li>Free Installation</li>
+                <li>Free One Year Domain</li>
+                <li>unlimited Hosting service</li>
+                <li>website ranking</li>
+              </ul>
+            </div>
+            <div class="pricing_btn">
+              <a href="#" class="custom_btn">Purchase</a>
+            </div>
+          </div>
+        </div>
+
+      </div><!--row-->
+
+    </div>
+</section><!---- END Pricing Area ----->
+
+
+
+<!---- Portfolio Area Start ----->
+<section id="portfolio" class="portfolio">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-12">
+          <div class="section_heading">
+            <span>PORTFOLIO</span>
+            <h2>Our Popular Works</h2>
+          </div>
+        </div>
+
+      </div><!--row-->
+
+      <div class="row">
+
+        <div class="col-12 col-lg-4">
+          <div class="portfolio_box">
+            <div class="portfolio_img">
+              <img src="assets/img/1.jpg" alt="Portfolio Image 01">
+            </div>
+            <div class="portfolio_info">
+              <h2>Beff Baffer Construction</h2>
+              <p>Financial Service</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-12 mt-5 mt-lg-0 col-lg-4">
+          <div class="portfolio_box">
+            <div class="portfolio_img">
+              <img src="assets/img/2.jpg" alt="Portfolio Image 02">
+            </div>
+            <div class="portfolio_info">
+              <h2>Beff Baffer Business</h2>
+              <p>Financial Service</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 mt-5 mt-lg-0 col-lg-4">
+          <div class="portfolio_box">
+            <div class="portfolio_img">
+              <img src="assets/img/3.jpg" alt="Portfolio Image 03">
+            </div>
+            <div class="portfolio_info">
+              <h2>Beff Baffer Construction</h2>
+              <p>Financial Service</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+</section><!---- END Portfolio Area ----->
+
+
+<!---- Contact Area Start ----->
+<section id="contact" class="contact">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-6 col-sm-12">
+          <div class="massage_box">
+            <form class="clearfix">
+
+              <div class="col-12">
+                 <textarea class="form-control" placeholder="White...." cols="30" rows="10"></textarea>
+              </div>
+
+              <div class="row">
+                <div class="col-12 col-md-6">
+                   <input type="text" class="form-control type_text" placeholder="First Name..." >
+                </div>
+
+                <div class="col-12 col-md-6">
+                   <input type="text" class="form-control type_text" placeholder="Last Name..." >
+                </div>  
+              </div>
+
+
+              <div class="col-12">
+                 <input type="email" class="form-control type_email" placeholder="Email Address.." >
+              </div>
+               
+              <div class="col-12">
+                 <a href="#" type="submit" class="custom_btn">Send Message</a>
+              </div>
+              
+            </form>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-sm-12">
+          <div class="contact_info">
+            <span>CONTACT US</span>
+            <h2>Request A Call Back Appointment?</h2>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+            <a href="#" class="custom_btn">Appointment</a>
+          </div>
+        </div>
+
+      </div><!--row-->
+    </div>
+</section><!---- END Contact Area ----->
+
+
+<!---- Blog Area Start ----->
+<section id="blog" class="blog">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-12">
+        <div class="section_heading">
+          <span>Blog</span>
+          <h2>Blog & News</h2>
+        </div>
+      </div>
+
+    </div><!--row-->
+
+    <div class="row">
+
+      <div class="col-12 col-lg-4">
+        <div class="blog_box">
+          <div class="blog_info">
+            <h2><a href="#">Build Your Website Into Design Automatically</a></h2>
+            <p>Rearrange the entire color palette, making your site unique and beautiful.</p>
+            <span><i class="fa-solid fa-hat-cowboy-side"></i> Fusion</span>
+            <span><i class="fa-solid fa-user"></i> by-admin</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 mt-5 mt-lg-0 col-lg-4">
+        <div class="blog_box">
+          <div class="blog_info">
+            <h2><a href="#">Build Your Website Into Design Automatically</a></h2>
+            <p>Rearrange the entire color palette, making your site unique and beautiful.</p>
+            <span><i class="fa-solid fa-hat-cowboy-side"></i> Fusion</span>
+            <span><i class="fa-solid fa-user"></i> by-admin</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 mt-5 mt-lg-0 col-lg-4">
+        <div class="blog_box">
+          <div class="blog_info">
+            <h2><a href="#">Build Your Website Into Design Automatically</a></h2>
+            <p>Rearrange the entire color palette, making your site unique and beautiful.</p>
+            <span><i class="fa-solid fa-hat-cowboy-side"></i> Fusion</span>
+            <span><i class="fa-solid fa-user"></i> by-admin</span>
+          </div>
+        </div>
+      </div>
+
+    </div><!--row-->
+  </div>
+</section><!---- END Blog Area ----->
+
+
+<!---- Footer Area start----->
+<section id="footer" class="footer">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-12 col-md-6 col-xl-3">
+          <div class="footer_single_box">
+            <img class="logo_img" src="assets/img/logo.png" alt="Logo Image">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod teminc.</p>
+            <form>
+              <input type="email" class="form-control" placeholder="Your email..">
+              <button type="submit"><i class="fa fa-envelope"></i></button>
+            </form>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-xl-3">
+          <div class="footer_single_box">
+            <div class="footer_heading">
+              <h4>Usefull Links</h4>
+            </div>
+
+            <div class="footer_info">
+              <div class="footer_img"><img src="assets/img/img-1.jpg" alt="footer image"></div>
+              <div class="footer_text">
+                <h6><a href="#">How To Improve Your Sales Volume</a></h6>
+                <span>24th Aug 2019</span>
+              </div>
+            </div>
+
+            <div class="footer_info">
+              <div class="footer_img"><img src="assets/img/img-2.jpg" alt="footer image"></div>
+              <div class="footer_text">
+                <h6><a href="#">How To Improve Your Sales Volume</a></h6>
+                <span>24th Aug 2019</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-xl-3">
+          <div class="footer_single_box">          
+            <div class="footer_heading">
+              <h4>Contact Us</h4>
+            </div>
+            <div class="footer_menu">
+              <ul>
+                  <li><a href="#"><i class="fa-solid fa-caret-right"></i> Home</a></li>
+                  <li><a href="#"><i class="fa-solid fa-caret-right"></i> About Us</a></li>
+                  <li><a href="#"><i class="fa-solid fa-caret-right"></i> Services</a></li>
+                  <li><a href="#"><i class="fa-solid fa-caret-right"></i> Policy</a></li>
+                  <li><a href="#"><i class="fa-solid fa-caret-right"></i> Work</a></li>
+                  <li><a href="#"><i class="fa-solid fa-caret-right"></i> Blogs</a></li>
+                  <li><a href="#"><i class="fa-solid fa-caret-right"></i> Contact</a></li>
+                  <li><a href="#"><i class="fa-solid fa-caret-right"></i> Support</a></li>
+                  <li><a href="#"><i class="fa-solid fa-caret-right"></i> Career</a></li>
+                  <li><a href="#"><i class="fa-solid fa-caret-right"></i> Privacy</a></li>                  
+                </ul>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-12 col-md-6 col-xl-3">
+          <div class="footer_single_box">
+            <div class="footer_heading">
+              <h4>Instagram</h4>
+            </div>
+            <div class="ins_img_list">
+              <ul>
+                <li><a href="#"><img src="assets/img/ins1.jpg" alt="Instagram Image 01"></a></li>
+                <li><a href="#"><img src="assets/img/ins2.jpg" alt="Instagram Image 02"></a></li>
+              </ul>
+
+              <ul>
+                 <li><a href="#"><img src="assets/img/ins3.jpg" alt="Instagram Image 03"></a></li>
+                 <li><a href="#"><img src="assets/img/ins4.jpg" alt="Instagram Image 04"></a></li> 
+              </ul>
+
+              <ul>               
+                <li><a href="#"><img src="assets/img/ins5.jpg" alt="Instagram Image 05"></a></li>
+                <li><a href="#"><img src="assets/img/ins6.jpg" alt="Instagram Image 06"></a></li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+
+      </div><!--row-->
+    </div>
+</section><!---- END Footer Area ----->
+
+
+<!---- Copyright Area Start ----->
+<section id="copyright" class="copyright">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-12 col-md-7">
+          <div class="copyright_text">
+            <p>Copyright &copy;2022. All Rights Reserved</p>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-5">
+          <div class="social_icon">
+            <ul>
+              <li>
+                <a href="#" class="facebook">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="twitter">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="google">
+                  <i class="fa-brands fa-google"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="instagram">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="linkedin">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li>              
+                <a href="#" class="pinterest">
+                  <i class="fa-brands fa-pinterest-square"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div><!--row-->
+    </div>
+</section><!---- END Copyright Area ----->
+
+
+<a href="index.html" class="back-to-top"><i class="fa-solid fa-angle-up"></i></a>
+
+<!-- JS file Calling-->
+<script src="assets/js/jquery.min.js"></script> 
+<script src="assets/js/bootstrap.min.js"></script> 
+<script src="assets/js/owl.carousel.min.js"></script> 
+<script src="assets/js/isotope.pkgd.min.js"></script>
+<script src="assets/js/jquery.waypoints.min.js"></script>
+<script src="assets/js/counterup.min.js"></script>
+<script src="assets/js/typed.min.js"></script>
+
+<!-- Main JS File -->
+<script src="assets/js/main.js"></script>
+</body>
+</html>
